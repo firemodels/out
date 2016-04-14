@@ -1,4 +1,8 @@
 @echo off
+Title Building FDS/dv for 64 bit OSX
+
+Rem  Windows batch file to build FDS/dv for 64 bit OSX
+
 Rem setup environment variables (defining where repository resides etc) 
 
 set envfile="%userprofile%"\fds_smv_env.bat
@@ -8,7 +12,6 @@ echo Create a file named %envfile% and use SMV/scripts/fds_smv_env_template.bat
 echo as an example.
 echo.
 echo Aborting now...
-
 pause>NUL
 goto:eof
 
@@ -17,6 +20,9 @@ goto:eof
 call %envfile%
 
 %svn_drive%
-cd %svn_root%\FDS_Compilation
-echo %CD%
-start wordpad getting_started.html
+
+plink %osx_logon% %linux_svn_root%/SMV/scripts/run_command.sh FDS_Compilation/intel_osx_64_dv make_fds.sh
+
+echo.
+echo compilation complete
+pause

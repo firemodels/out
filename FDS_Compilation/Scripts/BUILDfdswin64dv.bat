@@ -1,5 +1,7 @@
 @echo off
-Rem setup environment variables (defining where repository resides etc) 
+Title Building Parallel FDS for 64 bit Windows 
+	       
+Rem Batch file used to build a 32 bit version of FDS
 
 set envfile="%userprofile%"\fds_smv_env.bat
 IF EXIST %envfile% GOTO endif_envexist
@@ -8,7 +10,6 @@ echo Create a file named %envfile% and use SMV/scripts/fds_smv_env_template.bat
 echo as an example.
 echo.
 echo Aborting now...
-
 pause>NUL
 goto:eof
 
@@ -17,6 +18,11 @@ goto:eof
 call %envfile%
 
 %svn_drive%
-cd %svn_root%\FDS_Compilation
-echo %CD%
-start wordpad getting_started.html
+
+cd %svn_root%\FDS_Compilation\intel_win_64_dv
+
+erase *.obj 
+erase *.mod
+.\make_fds
+
+pause

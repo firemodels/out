@@ -1,6 +1,6 @@
 @echo off
-Title Building FDS for 64 bit OSX
-
+Title Building Parallel FDS for 64 bit Windows 
+	       
 Rem Batch file used to build a 32 bit version of FDS
 
 set envfile="%userprofile%"\fds_smv_env.bat
@@ -15,14 +15,14 @@ goto:eof
 
 :endif_envexist
 
-Rem location of batch files used to set up Intel compilation environment
-
 call %envfile%
 
-set target=intel_osx_64
-set fdsdir=%linux_svn_root%/FDS_Compilation/intel_osx_64
-set scriptdir=%linux_svn_root%/FDS_Compilation/Scripts
+%svn_drive%
 
-plink %svn_logon% %scriptdir%/MAKE_fds_onhost.sh %target% %fdsdir% %osx_hostname%
+cd %svn_root%\FDS_Compilation\mpi_intel_win_64_db
+
+erase *.obj 
+erase *.mod
+.\make_fds
 
 pause

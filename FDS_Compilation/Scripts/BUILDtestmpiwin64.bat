@@ -1,5 +1,5 @@
 @echo off
-Title Building FDS for 64 bit Linux
+Title Building FDS for 64 bit Windows
 
 Rem Batch file used to build a 64 bit version of FDS
 
@@ -15,14 +15,13 @@ goto:eof
 
 :endif_envexist
 
-Rem location of batch files used to set up Intel compilation environment
-
 call %envfile%
 
-set target=intel_linux_64
-set fdsdir=%linux_svn_root%/FDS_Compilation/intel_linux_64
-set scriptdir=%linux_svn_root%/FDS_Compilation/Scripts
+%svn_drive%
 
-plink %svn_logon% %scriptdir%/MAKE_fds_onhost.sh %target% %fdsdir% %linux_hostname%
+cd %svn_root%\Utilities\test_mpi\impi_intel_win
+erase *.obj 
+erase *.mod
+.\make_test_mpi
 
 pause

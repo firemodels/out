@@ -1,4 +1,4 @@
-s,,,,,,,,,Pa,mol/mol,mol/mol
+s,C,C,C,C,C,C,C,C,Pa,mol/mol,mol/mol
 Time,"West_All_TCs","East_All_TCs","West_Bottom_TCs","West_Middle_TCs","West_Upper_TCs","East_Bottom_TCs","East_Middle_TCs","East_Upper_TCs","Pressure","O2","CO2"
 -5.000E+01, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 0.000E+00, 2.075E-01, 3.862E-04
  1.129E-01, 2.300E+01, 2.300E+01, 2.300E+01, 2.300E+01, 2.300E+01, 2.300E+01, 2.300E+01, 2.300E+01,-5.075E-03, 2.075E-01, 3.862E-04

@@ -343,18 +343,18 @@ Sandia_Pool_Fires/isopentane_pool_cat_devc.csv,11,84,1,Sandia isopentane pool fi
 Sandia_Pool_Fires/isopentane_pool_cat_devc.csv,11,86,1,Sandia isopentane pool fire,7,20
 Sandia_Pool_Fires/isopentane_pool_cat_devc.csv,11,85,1,Sandia isopentane pool fire,6,21
 Sandia_Pool_Fires/isopentane_pool_cat_devc.csv,11,87,1,Sandia isopentane pool fire,7,21
-CERTEC_Pool_Fires/CERTEC_01_D3_line.csv,3,2,5,CERTEC 01_D3,6,13
-CERTEC_Pool_Fires/CERTEC_01_D3_devc.csv,30,5,1,CERTEC 01_D3,6,17
-CERTEC_Pool_Fires/CERTEC_01_D3_devc.csv,30,2,1,CERTEC 01_D3,6,15
+CERTEC_Pool_Fires/CERTEC_01_D3_cat_line.csv,3,2,5,CERTEC 01_D3,6,13
+CERTEC_Pool_Fires/CERTEC_01_D3_cat_devc.csv,30,5,1,CERTEC 01_D3,6,17
+CERTEC_Pool_Fires/CERTEC_01_D3_cat_devc.csv,30,2,1,CERTEC 01_D3,6,15
 CERTEC_Pool_Fires/CERTEC_04_D3_line.csv,3,2,5,CERTEC 04_D3,6,13
 CERTEC_Pool_Fires/CERTEC_04_D3_devc.csv,30,5,1,CERTEC 04_D3,6,17
 CERTEC_Pool_Fires/CERTEC_04_D3_devc.csv,30,2,1,CERTEC 04_D3,6,15
-CERTEC_Pool_Fires/CERTEC_14_D4_line.csv,3,2,5,CERTEC 14_D4,6,13
-CERTEC_Pool_Fires/CERTEC_14_D4_devc.csv,30,5,1,CERTEC 14_D4,6,17
-CERTEC_Pool_Fires/CERTEC_14_D4_devc.csv,30,2,1,CERTEC 14_D4,6,15
-CERTEC_Pool_Fires/CERTEC_10_D5_line.csv,3,2,5,CERTEC 10_D5,6,13
-CERTEC_Pool_Fires/CERTEC_10_D5_devc.csv,30,5,1,CERTEC 10_D5,6,17
-CERTEC_Pool_Fires/CERTEC_10_D5_devc.csv,30,2,1,CERTEC 10_D5,6,15
-CERTEC_Pool_Fires/CERTEC_07_D6_line.csv,3,2,5,CERTEC 07_D6,6,13
-CERTEC_Pool_Fires/CERTEC_07_D6_devc.csv,30,5,1,CERTEC 07_D6,6,17
-CERTEC_Pool_Fires/CERTEC_07_D6_devc.csv,30,2,1,CERTEC 07_D6,6,15
+CERTEC_Pool_Fires/CERTEC_14_D4_cat_line.csv,3,2,5,CERTEC 14_D4,6,13
+CERTEC_Pool_Fires/CERTEC_14_D4_cat_devc.csv,30,5,1,CERTEC 14_D4,6,17
+CERTEC_Pool_Fires/CERTEC_14_D4_cat_devc.csv,30,2,1,CERTEC 14_D4,6,15
+CERTEC_Pool_Fires/CERTEC_10_D5_cat_line.csv,3,2,5,CERTEC 10_D5,6,13
+CERTEC_Pool_Fires/CERTEC_10_D5_cat_devc.csv,30,5,1,CERTEC 10_D5,6,17
+CERTEC_Pool_Fires/CERTEC_10_D5_cat_devc.csv,30,2,1,CERTEC 10_D5,6,15
+CERTEC_Pool_Fires/CERTEC_07_D6_cat_line.csv,3,2,5,CERTEC 07_D6,6,13
+CERTEC_Pool_Fires/CERTEC_07_D6_cat_devc.csv,30,5,1,CERTEC 07_D6,6,17
+CERTEC_Pool_Fires/CERTEC_07_D6_cat_devc.csv,30,2,1,CERTEC 07_D6,6,15

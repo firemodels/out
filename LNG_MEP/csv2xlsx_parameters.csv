@@ -406,3 +406,9 @@ TAMU_Jet_Fires/TAMU_T19c_cat_devc.csv,13,2,1,TAMU T19c,6,15
 TAMU_Jet_Fires/TAMU_T19d_cat_devc.csv,13,2,1,TAMU T19d,6,15
 TAMU_Jet_Fires/TAMU_T19e_cat_devc.csv,13,2,1,TAMU T19e,6,15
 TAMU_Jet_Fires/TAMU_T19f_cat_devc.csv,13,2,1,TAMU T19f,6,15
+SNL_Walls/concrete_wall_prof_2.csv,22,13,-10,SNL concrete wall,7,15
+SNL_Walls/concrete_wall_prof_3.csv,22,13,-10,SNL concrete wall,7,17
+SNL_Walls/concrete_wall_prof_4.csv,22,13,-10,SNL concrete wall,7,19
+SNL_Walls/concrete_wall_prof_5.csv,22,13,-10,SNL concrete wall,7,21
+SNL_Walls/concrete_wall_prof_6.csv,22,13,-10,SNL concrete wall,7,23
+SNL_Walls/masonry_wall_devc.csv,39,2,-75,SNL masonry wall,7,15

@@ -1,0 +1,34 @@
+# Firebot workflow
+
+name: Git_Revisions
+
+on:
+  # Match Line_Endings: pushes also check merged PRs independently of PR runs.
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-git-revisions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check for dirty Git revisions
+        shell: bash
+        run: |
+          if git grep -n -F 'dirty' -- '*_git.txt'; then
+            echo "::error::Error: Dirty Git revisions found in the *_git.txt files listed above."
+            exit 1
+          else
+            status=$?
+            # git grep returns 1 for no matches; other errors must fail the check.
+            if [ "$status" -ne 1 ]; then
+              exit "$status"
+            fi
+          fi
+          echo "No dirty Git revisions found."
